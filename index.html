@@ -1,240 +1,319 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="es">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="robots" content="noindex, nofollow">
-<title>NAHOFIT · Boceto (vista previa)</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;1,500&amp;family=Manrope:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
-<style>
-body{margin:0;background:#F7F4EE}
-a{color:#344C43}a:hover{color:#1F302A}
-.ph{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;text-align:center;border:1.5px dashed #B18A66;color:#4A3B2C;font:600 13px Manrope,sans-serif;padding:16px;box-sizing:border-box}
-.ph small{font-weight:500;font-size:12px;color:#5C4A38}
-.btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 28px;border-radius:999px;font:600 15px Manrope,sans-serif;text-decoration:none}
-.serif{font-family:'Playfair Display',Georgia,serif;font-weight:500}
-.eye{font:700 12px Manrope,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#5E6F5A;margin:0}
-@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
-</style>
-<style>html{scroll-behavior:smooth}img{max-width:100%}</style>
+<meta name="robots" content="noindex, nofollow"/>
+<meta charset="utf-8"/>
+<meta content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' data: https:; connect-src 'self' https://fitorbe.com; form-action 'self'; base-uri 'self'; object-src 'none'" http-equiv="Content-Security-Policy"/>
+<meta content="strict-origin-when-cross-origin" name="referrer"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>NAHOFIT · Coaching emocional y bienestar para mujeres con Nahomy</title>
+<meta content="Coaching emocional y fitness consciente con Nahomy. Fortalece tu autoestima, conecta con tus emociones y cuida tu cuerpo. Presencial en Salt Lake City y en línea, en español e inglés." name="description"/>
+<meta content="#F7F4EE" name="theme-color"/>
+<link href="https://nahofit.life/" rel="canonical"/>
+<link href="https://nahofit.life/" hreflang="es" rel="alternate"/>
+<link href="https://nahofit.life/en/" hreflang="en" rel="alternate"/>
+<link href="https://nahofit.life/" hreflang="x-default" rel="alternate"/>
+<link href="/assets/favicon.svg" rel="icon" type="image/svg+xml"/>
+<meta content="website" property="og:type"/>
+<meta content="NAHOFIT" property="og:site_name"/>
+<meta content="https://nahofit.life/" property="og:url"/>
+<meta content="NAHOFIT · Florece desde adentro" property="og:title"/>
+<meta content="Coaching emocional y fitness consciente para mujeres, con Nahomy. Presencial en Salt Lake City y en línea." property="og:description"/>
+<meta content="https://nahofit.life/assets/opengraph.jpg" property="og:image"/>
+<meta content="1200" property="og:image:width"/>
+<meta content="630" property="og:image:height"/>
+<meta content="es_US" property="og:locale"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&amp;family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&amp;display=swap" rel="stylesheet"/>
+<link href="/styles.css" rel="stylesheet"/>
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "NAHOFIT",
+    "url": "https://nahofit.life/",
+    "image": "https://nahofit.life/assets/nahomy-perfil.jpg",
+    "description": "Coaching emocional y fitness consciente para mujeres, presencial en Salt Lake City y en línea.",
+    "telephone": "+1-385-230-0315",
+    "areaServed": ["Salt Lake City, UT", "En línea"],
+    "address": { "@type": "PostalAddress", "addressLocality": "Salt Lake City", "addressRegion": "UT", "addressCountry": "US" },
+    "availableLanguage": ["es", "en"],
+    "sameAs": ["https://www.instagram.com/nahofit.life/"],
+    "founder": { "@type": "Person", "name": "Nahomy" }
+  }
+  </script>
 </head>
-<body>
-<div style="background:#B18A66;color:#1F1A14;text-align:center;font:600 13px Manrope,sans-serif;padding:8px 12px">Vista previa del rediseño de NAHOFIT · Boceto, no es la página oficial</div>
-<div style="font-family: Manrope, system-ui, sans-serif; color: #2B2B28; background: #F7F4EE; line-height: 1.6">
-
-<!-- NAV -->
-<header style="position: relative; background: #F7F4EE; border-bottom: 1px solid #D8C8B5">
-<nav aria-label="Principal" style="max-width: 1240px; margin: 0 auto; padding: 16px 24px; display: flex; flex-wrap: wrap; align-items: center; gap: 16px 28px">
-<a href="#inicio" class="serif" style="font-size: 26px; color: #344C43; text-decoration: none; letter-spacing: .02em">NAHOFIT<span style="color: #B18A66">.</span></a>
-<div style="display: flex; flex-wrap: wrap; gap: 6px 22px; flex: 1 1 420px; font-size: 14px; font-weight: 500">
-<a href="#metodo" style="text-decoration: none">Método</a>
-<a href="#coaching" style="text-decoration: none">Coaching emocional</a>
-<a href="#fitness" style="text-decoration: none">Fitness consciente</a>
-<a href="#herramientas" style="text-decoration: none">Herramientas gratis</a>
-<a href="#nahomy" style="text-decoration: none">Sobre Nahomy</a>
-<a href="#faq" style="text-decoration: none">Preguntas</a>
-</div>
-<div style="display: flex; align-items: center; gap: 14px; font-size: 14px">
-<a href="#idioma" style="text-decoration: none; font-weight: 700">ES <span style="color: #8A8A80; font-weight: 500">/ EN</span></a>
-<a href="#portal" style="font-weight: 600">Mi NAHOFIT</a>
-<a href="#reservar" class="btn" style="background: #344C43; color: #F7F4EE; min-height: 44px; padding: 0 20px">Reserva tu sesión</a>
-</div>
+<body><div style="background:#B18A66;color:#1F1A14;text-align:center;font:600 13px Manrope,system-ui,sans-serif;padding:8px 12px;position:relative;z-index:200">Vista previa de la nueva página de NAHOFIT · No es la página oficial (nahofit.life)</div>
+<a class="saltar" data-i18n="saltar" href="#contenido">Saltar al contenido</a>
+<!-- ═══ Barra ═══ -->
+<header class="barra" id="barra">
+<div class="barra-in">
+<a aria-label="NAHOFIT, inicio" class="logo" href="/">NAHOFIT<span>.</span></a>
+<nav aria-label="Principal" class="menu" id="menu">
+<a data-i18n="nav_coaching" href="/coaching/">Coaching emocional</a>
+<a data-i18n="nav_metodo" href="/metodo/">Método NAHOFIT</a>
+<a data-i18n="nav_fitness" href="/fitness/">Fitness consciente</a>
+<a data-i18n="nav_nahomy" href="/sobre-nahomy/">Sobre mí</a>
+<a data-i18n="nav_preguntas" href="/#preguntas">Preguntas</a>
+<a class="menu-entrar" data-i18n="nav_entrar" href="https://fitorbe.com/login">Entrar a mi cuenta</a>
 </nav>
+<div class="barra-acciones">
+<a aria-label="Instagram de NAHOFIT (@nahofit.life)" class="ig-barra" href="https://www.instagram.com/nahofit.life/" rel="noopener noreferrer" target="_blank"><svg aria-hidden="true" fill="none" height="22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="22"><path d="M4 8h3l2-3h6l2 3h3v11H4z"></path><circle cx="12" cy="13" r="3.5"></circle></svg></a>
+<div aria-label="Idioma / Language" class="idioma" role="group">
+<button aria-pressed="true" data-lang="es" type="button">ES</button>
+<button aria-pressed="false" data-lang="en" type="button">EN</button>
+</div>
+<a class="btn btn-rosa btn-chico" data-i18n="nav_cta" href="/#contacto">Reserva tu sesión</a>
+<button aria-controls="menu" aria-expanded="false" aria-label="Abrir menú" class="hamburguesa" id="hamburguesa" type="button">
+<span></span><span></span><span></span>
+</button>
+</div>
+</div>
 </header>
-
-<!-- HERO -->
-<section id="inicio" style="max-width: 1240px; margin: 0 auto; padding: 72px 24px 88px; display: flex; flex-wrap: wrap; align-items: center; gap: 56px">
-<div style="flex: 1 1 480px; min-width: 0">
-<p class="eye">Coaching emocional · Bienestar integral</p>
-<h1 class="serif" style="font-size: clamp(48px, 6vw, 84px); line-height: 1.02; color: #344C43; margin: 18px 0 22px">Florece<br><em style="color: #7A5A3C">desde adentro.</em></h1>
-<p style="font-size: 20px; color: #3D4A44; margin: 0 0 12px; font-weight: 500">Reconecta contigo. Fortalece tu cuerpo. Vive con propósito.</p>
-<p style="font-size: 16px; color: #4F5650; max-width: 520px; margin: 0 0 32px">Acompañamiento para mujeres hispanohablantes que quieren reencontrarse, construir hábitos saludables y tomar decisiones alineadas con sus valores.</p>
-<div style="display: flex; flex-wrap: wrap; gap: 14px">
-<a href="#punto-de-partida" class="btn" style="background: #344C43; color: #F7F4EE">Descubre tu punto de partida</a>
-<a href="#nahomy" class="btn" style="border: 1.5px solid #344C43; color: #344C43">Conoce a Nahomy</a>
+<main id="contenido">
+<!-- ═══ Portada ═══ -->
+<section class="hero" id="inicio">
+<div class="hero-in">
+<div class="hero-texto">
+<p class="etiqueta" data-i18n="hero_tag">Coaching emocional y bienestar integral</p>
+<h1 data-i18n-html="hero_h1">Florece <em>desde adentro.</em></h1>
+<p class="hero-lema" data-i18n="hero_lema">Reconecta contigo. Fortalece tu cuerpo. Vive con propósito.</p>
+<p class="hero-sub" data-i18n="hero_sub">Tu transformación comienza cuando decides volver a ti. Fortalece tu autoestima, conecta con tus emociones y construye hábitos que te ayuden a sentirte mejor contigo misma.</p>
+<p class="hero-firma solo-grande" data-i18n="hero_firma">Soy Nahomy, coach emocional y entrenadora personal. Te acompaño desde el respeto y el amor propio, a tu ritmo.</p>
+<div class="botones">
+<a class="btn btn-rosa" data-i18n="hero_btn1" href="/herramientas/rueda/">Descubre tu punto de partida</a>
+<a class="btn btn-linea" data-i18n="hero_btn2" href="/sobre-nahomy/">Conoce a Nahomy</a>
 </div>
-<div style="display: flex; flex-wrap: wrap; gap: 10px 24px; margin-top: 32px; font-size: 14px; color: #3D4A44">
-<span>● Presencial en Salt Lake City</span><span>● En línea</span><span>● Español o inglés</span>
+<ul class="hero-datos">
+<li data-i18n="hero_d1">Presencial en Salt Lake City</li>
+<li data-i18n="hero_d2">En línea, desde donde estés</li>
+<li data-i18n="hero_d3">En español e inglés</li>
+</ul>
 </div>
-</div>
-<div style="flex: 1 1 400px; min-width: 0; position: relative; display: flex; justify-content: center">
-<div style="position: absolute; width: 78%; height: 88%; right: 4%; bottom: -24px; background: #98AA94; border-radius: 240px 240px 24px 24px" aria-hidden="true"></div>
-<img src="assets/nahomy-perfil.jpg" alt="Nahomy, coach de NAHOFIT" style="position: relative; width: 82%; max-width: 440px; aspect-ratio: 4/5; object-fit: cover; object-position: 50% 8%; background: #EFEDE9; border-radius: 240px 240px 24px 24px; display: block">
-</div>
-</section>
-
-<!-- EMPATÍA -->
-<section style="background: #344C43; color: #F7F4EE">
-<div style="max-width: 1240px; margin: 0 auto; padding: 80px 24px; display: flex; flex-wrap: wrap; gap: 48px; align-items: center">
-<div class="ph" style="flex: 1 1 320px; min-height: 300px; border-radius: 24px; background: #4A6359; color: #F7F4EE; border-color: #D8C8B5">IMAGEN SUGERIDA<small style="color: #E8E1D6">Mujer escribiendo en un diario con té, luz natural (banco autorizado)</small></div>
-<div style="flex: 1 1 520px; min-width: 0">
-<h2 class="serif" style="font-size: clamp(32px, 3.6vw, 48px); line-height: 1.15; margin: 0 0 20px">¿Cuándo fue la última vez que pensaste en ti?</h2>
-<p style="font-size: 18px; color: #E8E1D6; margin: 0 0 28px; max-width: 560px">No necesitas tener todas las respuestas. Solo dar el primer paso hacia una versión de ti más tranquila, fuerte y conectada con lo que de verdad te importa.</p>
-<a href="#reservar" class="btn" style="background: #F7F4EE; color: #344C43">Este es mi momento</a>
-</div>
+<figure class="hero-foto">
+<picture><source srcset="/assets/nahomy-perfil.webp" type="image/webp"/><img alt="Nahomy, coach de NAHOFIT" fetchpriority="high" height="1081" src="/assets/nahomy-perfil.jpg" width="720"/></picture>
+</figure>
 </div>
 </section>
-
-<!-- TRES CAMINOS -->
-<section style="max-width: 1240px; margin: 0 auto; padding: 88px 24px">
-<p class="eye" style="text-align: center">Cómo te acompaño</p>
-<h2 class="serif" style="text-align: center; font-size: clamp(32px, 3.6vw, 46px); color: #344C43; margin: 12px 0 48px">Tres caminos, un mismo propósito</h2>
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px">
-<article style="background: #FFFFFF; border-radius: 24px; overflow: hidden; border: 1px solid #E6DCCD">
-<div class="ph" style="height: 200px; background: #E9E0D3; border: none; border-bottom: 1.5px dashed #B18A66">IMAGEN SUGERIDA<small>Conversación cálida entre dos mujeres</small></div>
-<div style="padding: 28px"><p style="font: 600 14px Manrope; color: #7A5A3C; margin: 0">01</p><h3 class="serif" style="font-size: 26px; color: #344C43; margin: 6px 0 10px">Coaching emocional</h3><p style="margin: 0 0 16px; color: #4F5650">Autoestima, emociones, límites y metas personales, a tu ritmo.</p><a href="#coaching" style="font-weight: 600">Ver más →</a></div>
-</article>
-<article style="background: #FFFFFF; border-radius: 24px; overflow: hidden; border: 1px solid #E6DCCD">
-<div class="ph" style="height: 200px; background: #E9E0D3; border: none; border-bottom: 1.5px dashed #B18A66">IMAGEN SUGERIDA<small>Flor abriéndose / brote al amanecer</small></div>
-<div style="padding: 28px"><p style="font: 600 14px Manrope; color: #7A5A3C; margin: 0">02</p><h3 class="serif" style="font-size: 26px; color: #344C43; margin: 6px 0 10px">Método NAHOFIT</h3><p style="margin: 0 0 16px; color: #4F5650">Un proceso en tres etapas que une mente, cuerpo y propósito.</p><a href="#metodo" style="font-weight: 600">Ver más →</a></div>
-</article>
-<article style="background: #FFFFFF; border-radius: 24px; overflow: hidden; border: 1px solid #E6DCCD">
-<div class="ph" style="height: 200px; background: #E9E0D3; border: none; border-bottom: 1.5px dashed #B18A66">IMAGEN SUGERIDA<small>Mujer de 40+ entrenando fuerza con mancuernas ligeras</small></div>
-<div style="padding: 28px"><p style="font: 600 14px Manrope; color: #7A5A3C; margin: 0">03</p><h3 class="serif" style="font-size: 26px; color: #344C43; margin: 6px 0 10px">Fitness consciente</h3><p style="margin: 0 0 16px; color: #4F5650">Muévete por amor a ti, no por castigo a tu cuerpo.</p><a href="#fitness" style="font-weight: 600">Ver más →</a></div>
-</article>
+<!-- ═══ Conexión ═══ -->
+<section class="conexion">
+<div class="angosto aparece">
+<h2 data-i18n="con_h2">Has dedicado tanto tiempo a los demás… ¿cuándo fue la última vez que pensaste en ti?</h2>
+<p class="solo-grande" data-i18n="con_p1">A veces seguimos adelante cumpliendo responsabilidades, atendiendo a todos y dejando nuestras propias necesidades para después. Tal vez sientes que perdiste un poco de confianza, que necesitas recuperar tu motivación o simplemente volver a sentirte conectada contigo misma.</p>
+<p class="destacado" data-i18n="con_p2">No tienes que tener todas las respuestas para comenzar.</p>
+<p data-i18n="con_p3">Te acompaño a dar ese primer paso, a tu ritmo, sin comparaciones ni juicios.</p>
+<a class="btn btn-grafito" data-i18n="con_btn" href="#contacto">Este es mi momento</a>
 </div>
 </section>
-
-<!-- MÉTODO -->
-<section id="metodo" style="background: #EFE7DB">
-<div style="max-width: 1240px; margin: 0 auto; padding: 88px 24px">
-<p class="eye">Método NAHOFIT</p>
-<h2 class="serif" style="font-size: clamp(32px, 3.6vw, 46px); color: #344C43; margin: 12px 0 12px">Conecta · Fortalece · Florece</h2>
-<p style="max-width: 640px; color: #4F5650; margin: 0 0 44px">No te digo cómo vivir tu vida: te acompaño para que descubras tus propias respuestas.</p>
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px">
-<div style="background: #F7F4EE; border-radius: 24px; padding: 32px"><p class="serif" style="font-size: 56px; color: #98AA94; margin: 0; line-height: 1">1</p><h3 class="serif" style="font-size: 28px; color: #344C43; margin: 12px 0 8px">Conecta</h3><p style="margin: 0; color: #4F5650">Identifica tus valores, necesidades, prioridades y objetivos personales.</p></div>
-<div style="background: #F7F4EE; border-radius: 24px; padding: 32px"><p class="serif" style="font-size: 56px; color: #98AA94; margin: 0; line-height: 1">2</p><h3 class="serif" style="font-size: 28px; color: #344C43; margin: 12px 0 8px">Fortalece</h3><p style="margin: 0; color: #4F5650">Construye hábitos, actividad física, disciplina y decisiones conscientes.</p></div>
-<div style="background: #344C43; color: #F7F4EE; border-radius: 24px; padding: 32px"><p class="serif" style="font-size: 56px; color: #D8C8B5; margin: 0; line-height: 1">3</p><h3 class="serif" style="font-size: 28px; margin: 12px 0 8px">Florece</h3><p style="margin: 0; color: #E8E1D6">Evalúa tu progreso, gana autonomía y planifica tus próximos pasos.</p></div>
-</div>
-<p style="font-size: 13px; color: #5C5F58; margin: 24px 0 0">Los resultados dependen de cada persona; no se garantizan resultados emocionales ni físicos.</p>
-</div>
-</section>
-
-<!-- COACHING -->
-<section id="coaching" style="max-width: 1240px; margin: 0 auto; padding: 88px 24px; display: flex; flex-wrap: wrap; gap: 56px; align-items: center">
-<img src="assets/nahomy-plan.jpg" alt="Nahomy preparando una sesión" style="flex: 1 1 380px; min-width: 0; max-width: 480px; aspect-ratio: 1/1; object-fit: cover; object-position: 60% 30%; border-radius: 24px; display: block">
-<div style="flex: 1 1 480px; min-width: 0">
-<p class="eye">Coaching emocional</p>
-<h2 class="serif" style="font-size: clamp(32px, 3.6vw, 46px); color: #344C43; margin: 12px 0 20px">Reconecta contigo. Recupera tu confianza.</h2>
-<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px 24px; margin-bottom: 24px; font-weight: 500">
-<span>✓ Autoestima</span><span>✓ Manejo de emociones</span><span>✓ Límites sanos</span><span>✓ Metas personales</span><span>✓ Hábitos</span><span>✓ Fortalezas y valores</span>
-</div>
-<p style="color: #4F5650; margin: 0 0 20px">Sesiones de conversación, ejercicios de reflexión y acciones semanales, en persona o por videollamada.</p>
-<p style="font-size: 13px; color: #5C5F58; background: #EFE7DB; padding: 14px 18px; border-radius: 12px; margin: 0">El coaching no es psicoterapia ni tratamiento médico.</p>
-</div>
-</section>
-
-<!-- HERRAMIENTAS -->
-<section id="herramientas" style="background: #98AA94">
-<div style="max-width: 1240px; margin: 0 auto; padding: 88px 24px">
-<p class="eye" style="color: #22332C">Gratis · sin registro</p>
-<h2 id="punto-de-partida" class="serif" style="font-size: clamp(32px, 3.6vw, 46px); color: #1F302A; margin: 12px 0 12px">Descubre tu punto de partida</h2>
-<p style="max-width: 620px; color: #1F302A; margin: 0 0 40px">Herramientas educativas de autorreflexión. Úsalas sin cuenta; regístrate solo si quieres guardar tus resultados.</p>
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px">
-<a href="#t1" style="background: #F7F4EE; border-radius: 18px; padding: 24px; text-decoration: none"><strong class="serif" style="font-size: 20px">Rueda del bienestar</strong><p style="margin: 6px 0 0; font-size: 14px; color: #4F5650">Mira cómo están las áreas de tu vida.</p></a>
-<a href="#t2" style="background: #F7F4EE; border-radius: 18px; padding: 24px; text-decoration: none"><strong class="serif" style="font-size: 20px">Tus valores</strong><p style="margin: 6px 0 0; font-size: 14px; color: #4F5650">Identifica lo que de verdad te importa.</p></a>
-<a href="#t3" style="background: #F7F4EE; border-radius: 18px; padding: 24px; text-decoration: none"><strong class="serif" style="font-size: 20px">Planificador de objetivos</strong><p style="margin: 6px 0 0; font-size: 14px; color: #4F5650">Convierte un deseo en pasos claros.</p></a>
-<a href="#t4" style="background: #F7F4EE; border-radius: 18px; padding: 24px; text-decoration: none"><strong class="serif" style="font-size: 20px">Constructor de hábitos</strong><p style="margin: 6px 0 0; font-size: 14px; color: #4F5650">Pequeñas acciones, todos los días.</p></a>
-<a href="#t5" style="background: #F7F4EE; border-radius: 18px; padding: 24px; text-decoration: none"><strong class="serif" style="font-size: 20px">Preguntas de reflexión</strong><p style="margin: 6px 0 0; font-size: 14px; color: #4F5650">Un momento a solas contigo.</p></a>
-<a href="#t6" style="background: #344C43; color: #F7F4EE; border-radius: 18px; padding: 24px; text-decoration: none"><strong class="serif" style="font-size: 20px">Reto de 7 días</strong><p style="margin: 6px 0 0; font-size: 14px; color: #E8E1D6">Recíbelo gratis en tu correo.</p></a>
-<a href="#t7" style="background: #F7F4EE; border-radius: 18px; padding: 24px; text-decoration: none"><strong class="serif" style="font-size: 20px">¿Qué servicio es para mí?</strong><p style="margin: 6px 0 0; font-size: 14px; color: #4F5650">Orientador de 1 minuto.</p></a>
+<!-- ═══ Caminos ═══ -->
+<section class="caminos">
+<div class="ancho aparece">
+<p class="etiqueta" data-i18n="cam_tag">Tu bienestar, a tu manera</p>
+<h2 data-i18n="cam_h2">Diferentes caminos, un mismo propósito: tu bienestar.</h2>
+<div class="tres">
+<a class="tarjeta-camino rosa" href="/coaching/">
+<span class="num">01</span>
+<h3 data-i18n="cam1_t">Coaching emocional</h3>
+<p data-i18n="cam1_p">Un espacio de escucha y reflexión para conocerte mejor, fortalecer tu confianza, poner límites sanos y avanzar hacia lo que deseas.</p>
+<span class="ir" data-i18n="ver_mas">Ver más →</span>
+</a>
+<a class="tarjeta-camino salvia" href="/metodo/">
+<span class="num">02</span>
+<h3 data-i18n="cam2_t">Método NAHOFIT</h3>
+<p data-i18n="cam2_p">Un programa integral que une coaching emocional, movimiento y hábitos para acompañarte en un proceso de crecimiento personal.</p>
+<span class="ir" data-i18n="ver_mas">Ver más →</span>
+</a>
+<a class="tarjeta-camino arena" href="/fitness/">
+<span class="num">03</span>
+<h3 data-i18n="cam3_t">Fitness consciente</h3>
+<p data-i18n="cam3_p">Entrenamientos que respetan tu cuerpo, tu experiencia y tus metas. Moverte también es una forma de cuidarte.</p>
+<span class="ir" data-i18n="ver_mas">Ver más →</span>
+</a>
 </div>
 </div>
 </section>
+<!-- ═══ Coaching emocional ═══ -->
 
-<!-- FITNESS -->
-<section id="fitness" style="max-width: 1240px; margin: 0 auto; padding: 88px 24px; display: flex; flex-wrap: wrap-reverse; gap: 56px; align-items: center">
-<div style="flex: 1 1 480px; min-width: 0">
-<p class="eye">Fitness consciente</p>
-<h2 class="serif" style="font-size: clamp(32px, 3.6vw, 46px); color: #344C43; margin: 12px 0 20px">Muévete por amor a ti, no por castigo a tu cuerpo.</h2>
-<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px 24px; margin-bottom: 24px; font-weight: 500">
-<span>✓ Fuerza</span><span>✓ Rutinas para principiantes</span><span>✓ Mejorar tu condición</span><span>✓ Movilidad</span><span>✓ Crear el hábito</span><span>✓ Seguimiento en la app</span>
-</div>
-<blockquote class="serif" style="font-style: italic; font-size: 22px; color: #344C43; border-left: 3px solid #B18A66; margin: 0 0 24px; padding: 4px 0 4px 20px">Progreso, no perfección.</blockquote>
-<a href="#fitorbe" class="btn" style="background: #344C43; color: #F7F4EE">Entrenar con FITORBE</a>
-</div>
-<div style="flex: 1 1 380px; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; max-width: 480px">
-<img src="assets/nahomy-perfil.jpg" alt="Nahomy" style="grid-row: span 2; width: 100%; height: 380px; object-fit: cover; object-position: 50% 30%; border-radius: 24px; display: block">
-<div class="ph" style="min-height: 183px; background: #E9E0D3; border-radius: 24px">IMAGEN SUGERIDA<small>Estiramiento / movilidad</small></div>
-<div class="ph" style="min-height: 183px; background: #E9E0D3; border-radius: 24px">CAPTURA<small>App FITORBE en el teléfono</small></div>
+<!-- ═══ Método ═══ -->
+
+<!-- ═══ Fitness ═══ -->
+
+<!-- ═══ Filosofía ═══ -->
+<section class="filosofia">
+<div class="angosto aparece">
+<blockquote>
+<p data-i18n="fil_q">No necesitas convertirte en otra mujer. Necesitas descubrir todo lo que ya existe dentro de ti.</p>
+</blockquote>
+<p class="solo-grande" data-i18n="fil_p">El bienestar va mucho más allá de la apariencia: es escucharte, reconocer tu valor, cuidar tus emociones y respetar tu cuerpo. Aquí no buscamos la perfección. Buscamos progreso, equilibrio y autenticidad.</p>
+<p class="fil-firma" data-i18n="fil_firma">Mente, cuerpo y emociones en armonía.</p>
 </div>
 </section>
+<!-- ═══ Sobre Nahomy ═══ -->
 
-<!-- SOBRE NAHOMY -->
-<section id="nahomy" style="background: #344C43; color: #F7F4EE">
-<div style="max-width: 1240px; margin: 0 auto; padding: 88px 24px; display: flex; flex-wrap: wrap; gap: 56px; align-items: center">
-<img src="assets/nahomy-perfil.jpg" alt="Nahomy" style="flex: 0 1 360px; min-width: 0; width: 360px; max-width: 100%; aspect-ratio: 3/4; object-fit: cover; object-position: 50% 6%; background: #EFEDE9; border-radius: 200px 200px 24px 24px; display: block">
-<div style="flex: 1 1 480px; min-width: 0">
-<p class="eye" style="color: #D8C8B5">Sobre mí</p>
-<h2 class="serif" style="font-size: clamp(32px, 3.6vw, 46px); margin: 12px 0 20px">Hola, soy Nahomy</h2>
-<p class="serif" style="font-style: italic; font-size: 22px; line-height: 1.45; color: #F7F4EE; margin: 0 0 20px">“Mi propósito no es decirte cómo vivir tu vida, sino acompañarte para que descubras tus propias respuestas y tomes decisiones alineadas con tus valores.”</p>
-<p style="color: #E8E1D6; margin: 0 0 20px">Coach emocional y entrenadora personal. [BIOGRAFÍA BREVE APROBADA POR NAHOMY]</p>
-<p style="font-size: 14px; color: #E8E1D6; border: 1px dashed #D8C8B5; border-radius: 12px; padding: 12px 16px; margin: 0 0 28px">Mi preparación: [INSTITUCIÓN Y NOMBRE EXACTO DE LA CERTIFICACIÓN, por confirmar]</p>
-<a href="#reservar" class="btn" style="background: #F7F4EE; color: #344C43">Conversemos</a>
-</div>
+<!-- ═══ Cómo comenzar ═══ -->
+<section class="seccion pasos-sec">
+<div class="ancho aparece">
+<p class="etiqueta" data-i18n="pas_tag">Cómo comenzar</p>
+<h2 data-i18n="pas_h2">Tu camino comienza con tres pasos.</h2>
+<ol class="pasos">
+<li><h3 data-i18n="pas1_t">Conversemos</h3><p data-i18n="pas1_p">Agenda una primera conversación para contarme tus objetivos y ver cómo puedo acompañarte.</p></li>
+<li><h3 data-i18n="pas2_t">Diseñemos tu camino</h3><p data-i18n="pas2_p">Identificamos tus prioridades y elegimos el programa que mejor se adapta a ti.</p></li>
+<li><h3 data-i18n="pas3_t">Avanza a tu ritmo</h3><p data-i18n="pas3_p">Comienzas tu proceso con herramientas prácticas, acompañamiento y seguimiento.</p></li>
+</ol>
+<a class="btn btn-rosa" data-i18n="pas_btn" href="#contacto">Agenda tu primera conversación</a>
 </div>
 </section>
-
-<!-- CÓMO COMENZAR + PROGRAMAS -->
-<section id="reservar" style="max-width: 1240px; margin: 0 auto; padding: 88px 24px">
-<p class="eye" style="text-align: center">Cómo comenzar</p>
-<h2 class="serif" style="text-align: center; font-size: clamp(32px, 3.6vw, 46px); color: #344C43; margin: 12px 0 48px">Tres pasos sencillos</h2>
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px; margin-bottom: 64px">
-<div style="text-align: center; padding: 8px 16px"><div class="serif" style="width: 64px; height: 64px; margin: 0 auto 16px; border-radius: 50%; background: #D8C8B5; color: #344C43; font-size: 28px; display: flex; align-items: center; justify-content: center">1</div><h3 class="serif" style="font-size: 24px; color: #344C43; margin: 0 0 8px">Conversemos</h3><p style="margin: 0; color: #4F5650">Una primera llamada para conocerte y escuchar lo que buscas.</p></div>
-<div style="text-align: center; padding: 8px 16px"><div class="serif" style="width: 64px; height: 64px; margin: 0 auto 16px; border-radius: 50%; background: #D8C8B5; color: #344C43; font-size: 28px; display: flex; align-items: center; justify-content: center">2</div><h3 class="serif" style="font-size: 24px; color: #344C43; margin: 0 0 8px">Diseñemos tu camino</h3><p style="margin: 0; color: #4F5650">Elegimos juntas el programa que mejor se adapta a ti.</p></div>
-<div style="text-align: center; padding: 8px 16px"><div class="serif" style="width: 64px; height: 64px; margin: 0 auto 16px; border-radius: 50%; background: #D8C8B5; color: #344C43; font-size: 28px; display: flex; align-items: center; justify-content: center">3</div><h3 class="serif" style="font-size: 24px; color: #344C43; margin: 0 0 8px">Avanza a tu ritmo</h3><p style="margin: 0; color: #4F5650">Sesiones, herramientas y seguimiento en Mi NAHOFIT.</p></div>
+<!-- ═══ Testimonios (se muestra solo cuando hay testimonios reales en script.js) ═══ -->
+<section class="seccion testimonios" hidden="" id="testimonios">
+<div class="ancho aparece">
+<p class="etiqueta" data-i18n="tes_tag">Testimonios</p>
+<h2 data-i18n="tes_h2">Historias reales, procesos personales.</h2>
+<div class="tres" id="lista-testimonios"></div>
 </div>
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px">
-<div style="border: 1px solid #D8C8B5; border-radius: 20px; padding: 24px; background: #FFFFFF"><h3 class="serif" style="font-size: 22px; color: #344C43; margin: 0">Explora</h3><p style="margin: 4px 0 0; font-weight: 600">Gratis</p><p style="font-size: 14px; color: #4F5650; margin: 8px 0 0">Herramientas y reto de 7 días.</p></div>
-<div style="border: 1px solid #D8C8B5; border-radius: 20px; padding: 24px; background: #FFFFFF"><h3 class="serif" style="font-size: 22px; color: #344C43; margin: 0">Conecta</h3><p style="margin: 4px 0 0; font-weight: 600; color: #7A5A3C">[PRECIO POR APROBAR]</p><p style="font-size: 14px; color: #4F5650; margin: 8px 0 0">[BENEFICIOS POR DEFINIR]</p></div>
-<div style="border: 2px solid #344C43; border-radius: 20px; padding: 24px; background: #FFFFFF"><h3 class="serif" style="font-size: 22px; color: #344C43; margin: 0">Fortalece</h3><p style="margin: 4px 0 0; font-weight: 600; color: #7A5A3C">[PRECIO POR APROBAR]</p><p style="font-size: 14px; color: #4F5650; margin: 8px 0 0">[BENEFICIOS POR DEFINIR]</p></div>
-<div style="border: 1px solid #D8C8B5; border-radius: 20px; padding: 24px; background: #FFFFFF"><h3 class="serif" style="font-size: 22px; color: #344C43; margin: 0">Florece</h3><p style="margin: 4px 0 0; font-weight: 600; color: #7A5A3C">[PRECIO POR APROBAR]</p><p style="font-size: 14px; color: #4F5650; margin: 8px 0 0">[BENEFICIOS POR DEFINIR]</p></div>
-</div>
-<div class="ph" style="margin-top: 40px; min-height: 120px; border-radius: 20px; background: #EFE7DB">TESTIMONIOS AUTORIZADOS<small>Se muestran solo cuando haya testimonios reales con permiso por escrito</small></div>
 </section>
-
-<!-- FAQ + CONTACTO -->
-<section id="faq" style="background: #EFE7DB">
-<div style="max-width: 1240px; margin: 0 auto; padding: 88px 24px; display: flex; flex-wrap: wrap; gap: 56px">
-<div style="flex: 1 1 440px; min-width: 0">
-<p class="eye">Preguntas frecuentes</p>
-<h2 class="serif" style="font-size: 40px; color: #344C43; margin: 12px 0 24px">Resolvemos tus dudas</h2>
-<details style="border-bottom: 1px solid #D8C8B5; padding: 16px 0" open><summary style="font-weight: 600; cursor: pointer">¿El coaching es lo mismo que la terapia?</summary><p style="margin: 10px 0 0; color: #4F5650">No. El coaching no diagnostica ni trata condiciones clínicas.</p></details>
-<details style="border-bottom: 1px solid #D8C8B5; padding: 16px 0"><summary style="font-weight: 600; cursor: pointer">¿Necesito experiencia entrenando?</summary></details>
-<details style="border-bottom: 1px solid #D8C8B5; padding: 16px 0"><summary style="font-weight: 600; cursor: pointer">¿Las sesiones son presenciales o en línea?</summary></details>
-<details style="border-bottom: 1px solid #D8C8B5; padding: 16px 0"><summary style="font-weight: 600; cursor: pointer">¿En qué idioma son las sesiones?</summary></details>
-<details style="border-bottom: 1px solid #D8C8B5; padding: 16px 0"><summary style="font-weight: 600; cursor: pointer">¿Cuánto cuesta?</summary></details>
-<p style="font-size: 14px; background: #F7F4EE; border-radius: 12px; padding: 14px 18px; margin: 24px 0 0"><strong>¿Estás en crisis?</strong> Llama o escribe al <strong>988</strong>. En una emergencia, llama al <strong>911</strong>.</p>
+<!-- ═══ Preguntas ═══ -->
+<section class="seccion preguntas" id="preguntas">
+<div class="angosto aparece">
+<h2 data-i18n="faq_h2">Preguntas frecuentes</h2>
+<details>
+<summary data-i18n="faq1_q">¿Esto es terapia?</summary>
+<p data-i18n="faq1_a">No. Es coaching emocional: te acompaña a crear hábitos, manejar el estrés y sentirte mejor. No diagnostica ni trata condiciones de salud mental como depresión, ansiedad o trastornos de la alimentación. Si las tienes o crees tenerlas, te recomendamos una terapeuta con licencia, y podemos ayudarte a encontrar una.</p>
+</details>
+<details>
+<summary data-i18n="faq2_q">¿Necesito experiencia en coaching?</summary>
+<p data-i18n="faq2_a">No. Puedes comenzar desde donde estás. Lo importante es tener ganas de conocerte y trabajar en tus objetivos.</p>
+</details>
+<details>
+<summary data-i18n="faq3_q">¿Tengo que entrenar para recibir coaching?</summary>
+<p data-i18n="faq3_a">No. El coaching emocional y el entrenamiento personal se pueden tomar por separado o juntos en el Método NAHOFIT.</p>
+</details>
+<details>
+<summary data-i18n="faq4_q">¿Las sesiones son presenciales o en línea?</summary>
+<p data-i18n="faq4_a">Las dos. Puedes tener sesiones presenciales en Salt Lake City o en línea por video, desde donde estés. Las sesiones son individuales.</p>
+</details>
+<details>
+<summary data-i18n="faq5_q">¿En qué idioma son las sesiones?</summary>
+<p data-i18n="faq5_a">En español o en inglés, como te sientas más cómoda.</p>
+</details>
+<details>
+<summary data-i18n="faq6_q">¿Cuánto cuesta?</summary>
+<p data-i18n="faq6_a">Depende del programa y de la modalidad. Escríbeme y en la primera conversación te explico las opciones que mejor se adaptan a ti.</p>
+</details>
+<details>
+<summary data-i18n="faq7_q">¿Qué hago si estoy en una crisis?</summary>
+<p data-i18n="faq7_a">Si piensas en hacerte daño, llama o escribe al 988 (Línea de Crisis y Suicidio, 24 horas) o al 911 si estás en peligro. Las sesiones no son un servicio de emergencias.</p>
+</details>
 </div>
-<form style="flex: 1 1 440px; min-width: 0; background: #F7F4EE; border-radius: 24px; padding: 32px; display: flex; flex-direction: column; gap: 14px">
-<h2 class="serif" style="font-size: 32px; color: #344C43; margin: 0">Hablemos</h2>
-<div style="display: flex; flex-wrap: wrap; gap: 10px"><a href="#whatsapp" class="btn" style="background: #344C43; color: #F7F4EE; min-height: 44px">WhatsApp</a><a href="#instagram" class="btn" style="border: 1.5px solid #344C43; color: #344C43; min-height: 44px">Instagram</a></div>
-<label style="font-size: 14px; font-weight: 600">Nombre<input type="text" style="display: block; width: 100%; box-sizing: border-box; margin-top: 6px; min-height: 46px; border: 1px solid #C9B9A4; border-radius: 10px; padding: 0 14px; font: inherit; background: #FFFFFF"></label>
-<label style="font-size: 14px; font-weight: 600">Correo electrónico<input type="email" style="display: block; width: 100%; box-sizing: border-box; margin-top: 6px; min-height: 46px; border: 1px solid #C9B9A4; border-radius: 10px; padding: 0 14px; font: inherit; background: #FFFFFF"></label>
-<label style="font-size: 14px; font-weight: 600">WhatsApp o teléfono<input type="tel" style="display: block; width: 100%; box-sizing: border-box; margin-top: 6px; min-height: 46px; border: 1px solid #C9B9A4; border-radius: 10px; padding: 0 14px; font: inherit; background: #FFFFFF"></label>
-<label style="font-size: 14px; font-weight: 600">Me interesa<select style="display: block; width: 100%; margin-top: 6px; min-height: 46px; border: 1px solid #C9B9A4; border-radius: 10px; padding: 0 12px; font: inherit; background: #FFFFFF"><option>Primera conversación</option><option>Coaching emocional</option><option>Método NAHOFIT</option><option>Fitness consciente</option></select></label>
-<label style="font-size: 13px; display: flex; gap: 10px; align-items: flex-start; color: #4F5650"><input type="checkbox" style="width: 20px; height: 20px; margin: 2px 0 0">Acepto que NAHOFIT me contacte. Mis datos no se venden ni se usan para publicidad.</label>
-<button type="button" class="btn" style="background: #344C43; color: #F7F4EE; border: none; cursor: pointer">Solicitar información</button>
+</section>
+<!-- ═══ Contacto ═══ -->
+<section class="seccion contacto" id="contacto">
+<div class="dos ancho aparece">
+<div>
+<p class="etiqueta" data-i18n="cto_tag">Contacto y reservas</p>
+<h2 data-i18n="cto_h2">Tu siguiente capítulo puede comenzar hoy.</h2>
+<p data-i18n="cto_p">Cuéntame qué te gustaría trabajar y descubramos juntas cuál es el mejor punto de partida. Te escribo para elegir el día y la hora.</p>
+<ul class="canales">
+<li><a class="canal wa" data-wa="" href="https://wa.me/13852300315" rel="noopener noreferrer" target="_blank"><span class="canal-t">WhatsApp</span><span class="canal-d">(385) 230-0315</span></a></li>
+<li><a class="canal ig" href="https://www.instagram.com/nahofit.life/" rel="noopener noreferrer" target="_blank"><span class="canal-t"><svg aria-hidden="true" fill="none" height="22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="22"><path d="M4 8h3l2-3h6l2 3h3v11H4z"></path><circle cx="12" cy="13" r="3.5"></circle></svg>Instagram</span><span class="canal-d">@nahofit.life</span></a></li>
+</ul>
+<p class="nota" data-i18n="cto_lugar">Presencial en Salt Lake City, Utah · En línea por video</p>
+</div>
+<div class="formulario">
+<form id="form" novalidate="">
+<div class="campo">
+<label data-i18n="f_nombre" for="f-nombre">Nombre</label>
+<input autocomplete="name" id="f-nombre" maxlength="120" name="nombre" required=""/>
+</div>
+<div class="campos-dos">
+<div class="campo">
+<label data-i18n="f_email" for="f-email">Correo</label>
+<input autocomplete="email" id="f-email" maxlength="254" name="email" type="email"/>
+</div>
+<div class="campo">
+<label data-i18n="f_tel" for="f-tel">WhatsApp o teléfono</label>
+<input autocomplete="tel" id="f-tel" maxlength="40" name="telefono" type="tel"/>
+</div>
+</div>
+<p class="ayuda" data-i18n="f_ayuda">Déjame tu correo o tu WhatsApp, el que prefieras.</p>
+<div class="campos-selects">
+<div class="campo">
+<label data-i18n="f_interes" for="f-interes">Me interesa</label>
+<select id="f-interes" name="interes">
+<option data-i18n="op_primera" value="primera_sesion">Una primera conversación</option>
+<option data-i18n="op_coaching" value="uno_a_uno">Coaching emocional</option>
+<option data-i18n="op_metodo" value="cuerpo_mente">Método NAHOFIT</option>
+<option data-i18n="op_fitness" value="cuerpo">Fitness consciente</option>
+<option data-i18n="op_otro" value="otro">Otra cosa</option>
+</select>
+</div>
+<div class="campo">
+<label data-i18n="f_modalidad" for="f-modalidad">Prefiero</label>
+<select id="f-modalidad" name="modalidad">
+<option data-i18n="op_presencial" value="Presencial">Presencial (Salt Lake City)</option>
+<option data-i18n="op_linea" value="En línea">En línea</option>
+<option data-i18n="op_cualquiera" value="Cualquiera">Cualquiera de las dos</option>
+</select>
+</div>
+</div>
+<div class="campo">
+<label data-i18n="f_msg" for="f-msg">¿Algo que quieras contarme? (opcional)</label>
+<textarea id="f-msg" maxlength="900" name="mensaje" rows="3"></textarea>
+<p class="ayuda" data-i18n="f_privacidad">Por tu privacidad, no compartas diagnósticos ni información médica aquí.</p>
+</div>
+<div aria-hidden="true" class="trampa">
+<label for="f-empresa">Empresa</label>
+<input autocomplete="off" id="f-empresa" name="empresa" tabindex="-1"/>
+</div>
+<label class="acepto">
+<input id="f-acepta" name="acepta" required="" type="checkbox"/>
+<span data-i18n="f_acepta">Acepto que Nahomy me contacte por WhatsApp, teléfono o correo.</span>
+</label>
+<p class="error" id="f-error" role="alert"></p>
+<button class="btn btn-rosa btn-ancho" data-i18n="f_btn" id="f-boton" type="submit">Solicitar información</button>
 </form>
+<div class="gracias" hidden="" id="gracias" tabindex="-1">
+<h3 data-i18n="f_ok_t">¡Gracias por escribir!</h3>
+<p data-i18n="f_ok">Recibí tu solicitud. Te escribiré pronto para explicarte los siguientes pasos.</p>
+</div>
+</div>
 </div>
 </section>
-
-<!-- CIERRE -->
-<section style="max-width: 1240px; margin: 0 auto; padding: 88px 24px; text-align: center">
-<h2 class="serif" style="font-size: clamp(34px, 4vw, 56px); color: #344C43; margin: 0 0 24px">Mereces sentirte bien contigo misma.</h2>
-<a href="#reservar" class="btn" style="background: #B18A66; color: #1F1A14">Estoy lista para comenzar</a>
+<!-- ═══ Cierre ═══ -->
+<section class="cierre">
+<div class="angosto aparece">
+<h2 data-i18n="cie_h2">Mereces sentirte bien contigo misma.</h2>
+<p class="solo-grande" data-i18n="cie_p">No necesitas esperar a tenerlo todo resuelto para empezar a cuidarte. Hoy puedes dar un pequeño paso hacia una vida con más confianza, bienestar y conexión contigo.</p>
+<a class="btn btn-rosa" data-i18n="cie_btn" href="#contacto">Estoy lista para comenzar</a>
+</div>
 </section>
-
-<!-- FOOTER -->
-<footer style="background: #1F302A; color: #E8E1D6">
-<div style="max-width: 1240px; margin: 0 auto; padding: 48px 24px; display: flex; flex-wrap: wrap; gap: 24px 48px; justify-content: space-between; font-size: 14px">
-<div style="flex: 1 1 320px"><p class="serif" style="font-size: 24px; color: #F7F4EE; margin: 0 0 6px">NAHOFIT<span style="color: #B18A66">.</span></p><p style="margin: 0">Florece desde adentro.</p></div>
-<div style="display: flex; flex-wrap: wrap; gap: 10px 24px"><a href="#portal" style="color: #F7F4EE">Mi NAHOFIT</a><a href="#privacidad" style="color: #F7F4EE">Privacidad</a><a href="#terminos" style="color: #F7F4EE">Términos</a><a href="#cancelacion" style="color: #F7F4EE">Cancelación</a></div>
-<p style="flex: 1 1 100%; margin: 0; font-size: 13px; color: #C9C2B6">NAHOFIT ofrece coaching y educación en bienestar; no es psicoterapia ni sustituye atención médica. Consulta a tu médico antes de iniciar ejercicio. Crisis: 988. © 2026 NAHOFIT.</p>
+</main>
+<footer class="pie">
+<div class="ancho">
+<div class="pie-arriba">
+<div>
+<p class="logo">NAHOFIT<span>.</span></p>
+<p class="pie-lema" data-i18n="pie_lema">Florece desde adentro.</p>
+</div>
+<nav aria-label="Pie de página" class="pie-links">
+<a data-wa="" href="https://wa.me/13852300315" rel="noopener noreferrer" target="_blank">WhatsApp</a>
+<a href="https://www.instagram.com/nahofit.life/" rel="noopener noreferrer" target="_blank">Instagram</a>
+<a data-i18n="nav_entrar" href="https://fitorbe.com/login">Entrar a mi cuenta</a>
+<a data-i18n="privacidad" href="/privacidad/">Privacidad</a>
+<a data-i18n="terminos" href="/terminos/">Términos</a>
+</nav>
+</div>
+<p class="pie-aviso" data-i18n="pie_aviso">NAHOFIT ofrece coaching emocional y entrenamiento personal. No es terapia ni sustituye la atención médica o psicológica. Consulta a tu médico antes de empezar un programa de ejercicio. Si estás en crisis, llama o escribe al 988.</p>
+<p class="pie-copy">© <span id="anio">2026</span> NAHOFIT · Nahomy · Salt Lake City, Utah</p>
 </div>
 </footer>
-
-</div>
+<a aria-label="Instagram de NAHOFIT (@nahofit.life)" class="ig-flotante" href="https://www.instagram.com/nahofit.life/" rel="noopener noreferrer" target="_blank"><svg aria-hidden="true" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24"><path d="M4 8h3l2-3h6l2 3h3v11H4z"></path><circle cx="12" cy="13" r="3.5"></circle></svg></a>
+<a aria-label="Escríbele a Nahomy por WhatsApp" class="wa-flotante" data-i18n-aria="wa_aria" data-wa="" href="https://wa.me/13852300315" rel="noopener noreferrer" target="_blank">
+<svg aria-hidden="true" fill="currentColor" height="26" viewbox="0 0 24 24" width="26"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2Zm0 18.15h-.01a8.23 8.23 0 0 1-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.38c0-4.54 3.7-8.23 8.25-8.23 2.2 0 4.27.86 5.83 2.42a8.18 8.18 0 0 1 2.41 5.83c0 4.54-3.7 8.22-8.23 8.22Zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.12-.16.25-.64.81-.78.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.13-.15.17-.25.25-.42.08-.16.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.23.25-.87.85-.87 2.07 0 1.22.89 2.4 1.01 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.14-1.18-.06-.1-.22-.16-.47-.28Z"></path></svg>
+<span data-i18n="wa_txt_corto">WhatsApp</span>
+</a>
+<script defer="" src="/script.js"></script>
 </body>
 </html>
