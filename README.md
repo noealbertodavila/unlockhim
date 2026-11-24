@@ -1,5 +1,6 @@
-# Unlock Him — demo
+# Boceto NAHOFIT — vista previa
 
-Página de prueba para que la autora la vea antes de comprar el dominio. Se publica con GitHub Pages en https://fieldpulse.app (temporal).
+Vista previa temporal del rediseño de NAHOFIT, publicada con GitHub Pages en https://fieldpulse.app.
+No es la página oficial (esa es https://nahofit.life).
 
-Los pagos son simulados; las cuentas y ventas se guardan solo en el navegador de quien la prueba.
+El demo anterior de Unlock Him quedó guardado en la rama `respaldo-unlockhim-2026-11-23`.
